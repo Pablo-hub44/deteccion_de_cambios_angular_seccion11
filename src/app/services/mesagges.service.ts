@@ -23,7 +23,7 @@ export class MesaggesService {
   }
 
   addMessage(message: string) {
-    // con signal
+    //* con signal
     //this.messages.update((prevMessages) => [...prevMessages, message]);
 
     //*sin signal
@@ -31,4 +31,7 @@ export class MesaggesService {
 
     this.messages$.next(this.messages)//.next permite emitir un nuevo valor  y vamos a emitir los mensajes
   }
+
+
+
 }

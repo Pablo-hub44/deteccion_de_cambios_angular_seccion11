@@ -1,7 +1,8 @@
 <p>
-  <button (click)="onDecrement()">Decrement</button>
-  <span>{{ count() }}</span>
-  <button (click)="onIncrement()">Increment</button>
+    <button (click)="onDecrement()">Decrementar</button>
+    <!-- <span>{{ count() }}</span>  si fuera con signal-->
+    <span>{{count}}</span>
+    <button (click)="onIncrement()">Incrementar</button>
 </p>
 <p class="debug-output">{{ debugOutput }}</p>
 <app-info-message />
